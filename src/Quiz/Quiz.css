@@ -1,0 +1,106 @@
+.quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .question-count {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .question-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .answer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Ensures buttons stretch to container width */
+  }
+  
+  .answer-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    width: 100%; /* Make buttons take up full width */
+  }
+  
+  .answer-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .answer-button.correct {
+    background-color: #5cb85c;
+  }
+  
+  .answer-button.incorrect {
+    background-color: #d9534f;
+  }
+  
+  .next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #6c757d;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    width: 100%; /* Make next button take up full width */
+  }
+  
+  .next-button:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+  }
+  
+  .restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #6c757d;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    width: 100%; /* Make restart button take up full width */
+  }
+  
+  .restart-button:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+  }
+  
+  .score-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .score-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
